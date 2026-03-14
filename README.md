@@ -1,6 +1,6 @@
 # MySortVisualization (数据结构可视化作业项目)
 
-本项目是曾经本人学习 C++ 和 Qt 框架时的一个练习项目，原本由我与其他 3 位同学共同编写。当时由于本人对计算机体系结构了解非常少，实现的非常原始，低效且充满错误。本仓库是对原项目进行了完全重构后的版本，几乎已经看不出原本的痕迹了，放在了 HISTORY 文件夹下。此仓库近作留档使用。
+本项目是曾经本人学习 C++ 和 Qt 框架时的一个练习项目，原本由我与其他 3 位同学共同编写。当时由于本人对计算机体系结构了解非常少，实现的非常原始，低效且充满错误。本仓库是对原项目进行了完全重构后的版本，几乎已经看不出原本的痕迹了，放在了 HISTORY 文件夹下。此仓库仅作留档使用。
 
 ![image-20260314145244436](./assets/image-20260314145244436.png)
 
@@ -14,12 +14,12 @@
 ├── compile_commands.json       # clangd Linter 依赖的编译指令数据库链接
 ├── include/                    # C++ 头文件目录 (.h)
 │   ├── MainWindow.h            # 主界面模块，把控侧边栏和深浅色主题
-│   ├── PageCompareSort.h       # 🎮 【功能页】多算法并发比较视图
-│   ├── PageSingleSort.h        # 🎮 【功能页】单算法测试视图
-│   ├── PageTreeSort.h          # 🎮 【功能页】堆排序树形结构视图
-│   ├── SortAlgorithm.h         # ✨ 排序算法实现及解析核心
-│   ├── SortState.h             # 🧱 状态数据结构定义
-│   └── VisualizerWidget.h      # 🖌️ 核心绘图画布件，负责 QPainter 画图
+│   ├── PageCompareSort.h       # 【功能页】多算法并发比较视图
+│   ├── PageSingleSort.h        # 【功能页】单算法测试视图
+│   ├── PageTreeSort.h          # 【功能页】堆排序树形结构视图
+│   ├── SortAlgorithm.h         #  排序算法实现及解析核心
+│   ├── SortState.h             #  状态数据结构定义
+│   └── VisualizerWidget.h      #  核心绘图画布件，负责 QPainter 画图
 └── src/                        # C++ 源文件目录 (.cpp)
     ├── MainWindow.cpp          
     ├── PageCompareSort.cpp     
